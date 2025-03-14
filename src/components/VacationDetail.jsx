@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import '../styles/VacationDetail.css';
+import ReviewSystem from './ReviewSystem';
 
 function VacationDetail({ vacations }) {
   const { id } = useParams();
@@ -51,6 +52,8 @@ function VacationDetail({ vacations }) {
               Boek nu
             </Link>
           </div>
+          
+          <ReviewSystem vacationId={vacation.id} />
         </div>
       </div>
     </div>

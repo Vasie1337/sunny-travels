@@ -1,0 +1,173 @@
+.review-system {
+  margin-top: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.review-system h3 {
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.average-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.rating-summary {
+  margin-right: 1rem;
+}
+
+.avg-rating {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff6b6b;
+  margin-right: 0.5rem;
+}
+
+.total-reviews {
+  color: #777;
+}
+
+.rating-stars {
+  display: flex;
+}
+
+.star {
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-right: 0.2rem;
+}
+
+.star.filled {
+  color: #ffcc00;
+}
+
+.reviews-list {
+  margin-bottom: 2rem;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.no-reviews {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.review-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.review-name {
+  font-weight: bold;
+}
+
+.review-date {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.review-rating {
+  margin-bottom: 0.5rem;
+}
+
+.review-rating .star {
+  font-size: 1.2rem;
+}
+
+.review-comment {
+  line-height: 1.4;
+}
+
+.review-form-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.review-form-container h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.submission-confirmation {
+  background: #e0f7e0;
+  color: #2e7d32;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.review-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.review-form input,
+.review-form select,
+.review-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.review-form textarea {
+  resize: vertical;
+}
+
+.submit-review-btn {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.submit-review-btn:hover {
+  background-color: #ff5252;
+}
+
+@media (max-width: 768px) {
+  .average-rating {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .rating-summary {
+    margin-bottom: 0.5rem;
+  }
+}
