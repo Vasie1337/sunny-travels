@@ -38,7 +38,7 @@ const vacations = [
     title: "Strandvakantie Kreta",
     shortDescription: "Ontspan op de mooiste stranden van het Griekse eiland Kreta.",
     price: "€549 p.p.",
-    image: "https://images.unsplash.com/photo-1586156938613-212e3a5326b6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image: "https://www.vakantiediscounter.nl/blog/wp-content/uploads/2023/04/vakantie-kreta-tips-waar-1.jpg",
     longDescription: "Kreta, het grootste Griekse eiland, biedt een perfecte mix van prachtige stranden, oude ruïnes en traditionele dorpjes. Verblijf in een comfortabel hotel dicht bij het strand en geniet van het kristalheldere water en de Griekse gastvrijheid. Verken de Kretenzische keuken en proef lokale specialiteiten in de tavernes.",
     highlights: ["Privé strand", "Snorkelen", "Boottochten", "Traditionele tavernes"],
     duration: "8 dagen",
